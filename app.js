@@ -4,7 +4,7 @@ const inputText = document.querySelector("#txt-input");
 
 const outputDiv = document.querySelector("#output");
 
-const serverURL = "https://lessonfourapi.tanaypratap.repl.co/translate/yoda.json"
+const serverURL = "https://api.funtranslations.com/translate/roman-numerals.json"
 
 function getTranslationURL(input){
     return serverURL + "?" + "text=" + input
